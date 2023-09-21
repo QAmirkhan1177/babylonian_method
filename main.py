@@ -8,4 +8,7 @@ def main(S, d):
     Returns:
         float: result
     '''
-    return
+    a= (S-d**2)/(2*d)
+    b=(a+d)
+    x=(b-(a**2)/(2*d))
+    return x                          
